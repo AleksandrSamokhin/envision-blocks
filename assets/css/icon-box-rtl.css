@@ -1,0 +1,21 @@
+.envision-blocks-icon-box__container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  height: 492px;
+  background-color: #fff;
+  border-radius: var(--ebx-rounded);
+  transition: var(--ebx-transition--all);
+}
+.envision-blocks-icon-box__container:hover, .envision-blocks-icon-box__container:focus {
+  text-decoration: none;
+}
+.envision-blocks-icon-box__title {
+  margin-bottom: 10px;
+}
+.envision-blocks-icon-box__description {
+  color: var(--ebx-text-color);
+}
+.envision-blocks-icon-box__info {
+  margin-top: auto;
+}

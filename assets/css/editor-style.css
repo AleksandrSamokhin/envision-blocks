@@ -1,0 +1,39 @@
+.elementor-element .envision-blocks-icon:after {
+  content: "EB";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #a4afb7;
+  background: transparent;
+  font-size: 10px;
+  font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+  padding: 0.2em 0.5em;
+  border-width: 0 0 1px 1px;
+  border-color: #e0e0e0;
+  border-style: solid;
+}
+
+#elementor-panel-categories {
+  display: flex;
+  flex-direction: column;
+}
+#elementor-panel-categories > div {
+  order: 4;
+}
+
+#elementor-panel-category-layout {
+  order: 1 !important;
+}
+
+#elementor-panel-category-basic {
+  order: 2 !important;
+}
+
+#elementor-panel-get-pro-elements-sticky {
+  display: none !important;
+}
+
+#elementor-panel-category-envision-blocks-widgets,
+#elementor-panel-category-envision-blocks-woocommerce-widgets {
+  order: 3 !important;
+}

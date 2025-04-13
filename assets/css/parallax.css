@@ -1,0 +1,28 @@
+/*-------------------------------------------------------*/
+/* Parallax
+/*-------------------------------------------------------*/
+.envision-blocks-parallax__images {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.envision-blocks-parallax__image {
+  position: absolute;
+}
+.envision-blocks-parallax__image-position--top-left {
+  top: 0;
+  left: 0;
+}
+.envision-blocks-parallax__image-position--top-right {
+  top: 0;
+  right: 0;
+}
+.envision-blocks-parallax__image-position--bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.envision-blocks-parallax__image-position--bottom-right {
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,4 @@
+# Ignore all .min files:
+**/*.min.js
+**/*.min.css
+**/*.min-rtl.css

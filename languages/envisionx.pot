@@ -1,0 +1,2198 @@
+# Copyright (C) 2024 envisionx
+# This file is distributed under the same license as the envisionx package.
+msgid ""
+msgstr ""
+"Project-Id-Version: envisionx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: DeoThemes <hello@deothemes.com>\n"
+"Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
+"POT-Creation-Date: 2024-07-21 06:36+0000\n"
+"Report-Msgid-Bugs-To: https://deothemes/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/envisionx/404.php:18
+msgid "Oops, page not found"
+msgstr ""
+
+#: wp-content/themes/envisionx/404.php:19
+msgid "We're sorry, the page you have looked for does not exist in our database! Maybe go to our %1$shome page%2$s or try to use a search?"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:32
+msgid "No comments"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:33, wp-content/themes/envisionx/includes/template-tags.php:75
+msgid "1 Comment"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:34
+msgid "% Comments"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:70
+msgid "Name"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:73, wp-content/themes/envisionx/woocommerce/share.php:102
+msgid "Email"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:76
+msgid "Website"
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:80
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: wp-content/themes/envisionx/comments.php:89
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: wp-content/themes/envisionx/header.php:27
+msgid "Skip to Content"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:19, wp-content/themes/envisionx/includes/admin/theme-admin.php:187
+msgid "Welcome to EnvisionX"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:20, wp-content/themes/envisionx/includes/admin/theme-admin.php:168, wp-content/themes/envisionx/includes/admin/theme-admin.php:417
+msgid "EnvisionX"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:64, wp-content/themes/envisionx/includes/admin/theme-admin.php:195
+msgid "Starter Sites"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:67
+msgid "2"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:70
+msgid "Dark mode"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:76
+msgid "Envision Blocks plugin"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:78
+msgid "Free version"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:79
+msgid "Pro version"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:82
+msgid "WooCommerce product builder"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:88
+msgid "Portfolio module"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:94
+msgid "Easy installation wizard"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:100
+msgid "Header / footer builder"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:106
+msgid "Product layouts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:108
+msgid "1"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:109
+msgid "4"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:112
+msgid "Ajax side cart"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:118
+msgid "Catalog Ajax filters"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:124
+msgid "Elementor widgets"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:126
+msgid "13"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:127
+msgid "44+"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:130
+msgid "Customizable mega menu builder"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:136
+msgid "ACF Pro integrated"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:143
+msgid "Priority email support"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:155
+msgid "Theme Installation"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:174
+msgid "Made by "
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:175
+msgid "DeoThemes"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:189
+msgid "EnvisionX is now installed and ready to use! Get ready to build something beautiful. Check the <a href=\"%1$s\" target=\"_blank\">Documentation</a> for installation and customization guides."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:198
+msgid "Create professionally looking ready-to-use website with just a few clicks."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:199
+msgid "Install & Activate Envision Blocks"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:219
+msgid "Import"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:236
+msgid "Free Vs Pro"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:240
+msgid "Features"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:241
+msgid "%s Free"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:242
+msgid "%s Pro"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:274
+msgid "Upgrade Now"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:288
+msgid "Useful Links"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:291
+msgid "Knowledge Base"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:294
+msgid "Rate us ★★★★★"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:299
+msgid "Contact us"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:304
+msgid "Follow us"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:311
+msgid "Suggest a Feature"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:312
+msgid "Missing an important feature? Let us know how we can improve the product."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:313
+msgid "Leave a Feedback"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:318
+msgid "Video Tutorials"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:349
+msgid "SaaS"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:356
+msgid "Store"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:420
+msgid "Thank you for choosing EnvisionX!"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:424
+msgid "Follow the steps to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:422
+msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:431
+msgid "Setup Instructions"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/admin/theme-admin.php:429
+msgid "Run Setup Wizard"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/class-envisionx-walker-comments.php:33
+msgid "Post author"
+msgstr ""
+
+#. translators: 1: comment date, 2: comment time
+#: wp-content/themes/envisionx/includes/class-envisionx-walker-comments.php:41
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/class-envisionx-walker-comments.php:45
+msgid "Edit"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/class-envisionx-walker-comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:38
+msgid "Background Styles"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:127, wp-content/themes/envisionx/includes/customizer/customizer.php:244
+msgid "General"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:133
+msgid "Header & Logo"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:139
+msgid "Header"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:145
+msgid "Logo"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:151
+msgid "Menu"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:157
+msgid "Icons"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:163
+msgid "Footer"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:169
+msgid "Layout"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:175
+msgid "Content"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:181, wp-content/themes/envisionx/includes/customizer/customizer.php:261
+msgid "Blog"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:182
+msgid "Layout options for the blog pages"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:188, wp-content/themes/envisionx/includes/customizer/customizer.php:273
+msgid "Single Post"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:194
+msgid "Page"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:200, wp-content/themes/envisionx/template-parts/page-title/page-title.php:65
+msgid "Archives"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:201
+msgid "Layout options for archives and categories pages"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:208
+msgid "Shop"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:209
+msgid "Layout options for shop catalog pages"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:216
+msgid "Search Results"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:217
+msgid "Layout options for search result page"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:223
+msgid "Colors"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:231
+msgid "Palette"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:234, wp-content/themes/envisionx/includes/customizer/customizer.php:247
+msgid "Light"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:235, wp-content/themes/envisionx/includes/customizer/customizer.php:248
+msgid "Dark"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:255
+msgid "Typography"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:267
+msgid "Post Meta"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:279
+msgid "Excerpt"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/customizer.php:285, wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:24
+msgid "Page Title"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/deprecated/functions.php:20
+msgid "%1$s or %2$s"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Field.php:267
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Field.php:278
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Field.php:394
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Field.php:520, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Field.php:531, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-css/src/CSS.php:133, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-css/src/CSS.php:144, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-postmessage/src/Postmessage.php:69
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Init.php:206
+msgid "We detected you're using Kirki\Compatibility\Init::get_variables(). Please use \Kirki\Util\Util::get_variables() instead."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Init.php:257
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Init.php:260
+msgid "Install Plugin"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Init.php:261
+msgid "Don't show this again"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/compatibility/src/Kirki.php:191
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:79
+msgid "On"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:80
+msgid "Off"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:102
+msgid "Admin Menu"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:103
+msgid "Welcome Screen"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:104
+msgid "Post Formats"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:105
+msgid "Media"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:106
+msgid "Image Editing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:108
+msgid "Posts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:109
+msgid "Sorting"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:110
+msgid "Social"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:112
+msgid "Products"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:113
+msgid "Taxonomies"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:114
+msgid "Widgets"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:115
+msgid "Notifications"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:116
+msgid "Miscelaneous"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-dimension/src/Control/Dimension.php:67, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:74
+msgid "Invalid Value"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Control/Image.php:82, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:115
+msgid "No image selected"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Control/Image.php:85, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:114, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:453, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:485, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:510
+msgid "Remove"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Control/Image.php:87, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:113, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:852
+msgid "Default"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Control/Image.php:89, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:111, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:116
+msgid "Select image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:112
+msgid "Change image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-image/src/Field/Image.php:117
+msgid "Choose image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-react-select/src/Control/ReactSelect.php:162
+msgid "Select..."
+msgstr ""
+
+#. translators: %s is the limit of selection number.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-react-select/src/Control/ReactSelect.php:169
+msgid "You can only select %s items"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:95
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:104
+msgid "Add new %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:139
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to allow.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:275
+msgid "Limit: %s rows"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:443, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:448
+msgid "No Image Selected"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:454, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:458
+msgid "Add Image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:454, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:456
+msgid "Change Image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:475, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:480
+msgid "No File Selected"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:486, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:490
+msgid "Add File"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:486, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:488
+msgid "Change File"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:84
+msgid "Background Color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:103
+msgid "Background Image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:119
+msgid "Background Repeat"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:123
+msgid "No Repeat"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:124
+msgid "Repeat All"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:125
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:126
+msgid "Repeat Vertically"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:152
+msgid "Background Position"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:156, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:50
+msgid "Left Top"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:157, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:51
+msgid "Left Center"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:158, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:52
+msgid "Left Bottom"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:159, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:56
+msgid "Center Top"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:160, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:57
+msgid "Center Center"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:161, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:58
+msgid "Center Bottom"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:162, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:53
+msgid "Right Top"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:163, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:54
+msgid "Right Center"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:164, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:55
+msgid "Right Bottom"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:190
+msgid "Background Size"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:194
+msgid "Cover"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:195
+msgid "Contain"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:196
+msgid "Auto"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:222
+msgid "Background Attachment"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:227
+msgid "Scroll"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-background/src/Background.php:228
+msgid "Fixed"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:59, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:323
+msgid "Font Size"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:60
+msgid "Font Weight"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:61, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:402
+msgid "Line Height"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:62
+msgid "Font Style"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:63, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:407
+msgid "Letter Spacing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:64
+msgid "Word Spacing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:65
+msgid "Top"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:66
+msgid "Bottom"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:67, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:351
+msgid "Left"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:68, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:353
+msgid "Right"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:69, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:352
+msgid "Center"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:70
+msgid "Size"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:71
+msgid "Spacing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:72, wp-content/themes/envisionx/woocommerce/single-product/product-attributes.php:40
+msgid "Width"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-dimensions/src/Dimensions.php:73, wp-content/themes/envisionx/woocommerce/single-product/product-attributes.php:47
+msgid "Height"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:112, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:131
+msgid "Regular"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:116, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:135
+msgid "Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:120, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:179
+msgid "700"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:124, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:183
+msgid "700 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:139
+msgid "100"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:143
+msgid "100 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:147
+msgid "200"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:151
+msgid "200 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:155
+msgid "300"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:159
+msgid "300 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:163
+msgid "500"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:167
+msgid "500 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:171
+msgid "600"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:175
+msgid "600 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:187
+msgid "800"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:191
+msgid "800 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:195
+msgid "900"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:199
+msgid "900 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:274
+msgid "Font Family"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:301
+msgid "Font Variant"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:328
+msgid "Font Color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:347
+msgid "Text Align"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:350
+msgid "Initial"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:354
+msgid "Justify"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:359
+msgid "Text Transform"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:362, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:382
+msgid "None"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:363
+msgid "Capitalize"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:364
+msgid "Uppercase"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:365
+msgid "Lowercase"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:379
+msgid "Text Decoration"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:383
+msgid "Underline"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:384
+msgid "Line Through"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:385
+msgid "Overline"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:386
+msgid "Solid"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:387
+msgid "Wavy"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:422
+msgid "Margin Top"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:427
+msgid "Margin Bottom"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:850
+msgid "Defaults"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:877
+msgid "Standard Fonts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/field-typography/src/Field/Typography.php:882
+msgid "Google Fonts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-sections/src/Section_Types/Nested.php:62
+msgid "Customizing"
+msgstr ""
+
+#. translators: The title.
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-sections/src/Section_Types/Nested.php:65
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:162, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:163
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:164
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:165
+msgid "Light 200"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:166
+msgid "Light 200 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:167
+msgid "Book 300"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:168
+msgid "Book 300 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:169, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:170
+msgid "Normal 400"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:171
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:172
+msgid "Medium 500"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:173
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:174, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:175
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:177
+msgid "Bold 700"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:178
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:179, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:180
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:181
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:182, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:183
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:184
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/src/Notice.php:132
+msgid "Invalid nonce"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/src/Notice.php:136
+msgid "You don't have capability to run this action"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/src/Notice.php:144
+msgid "Discount notice has been dismissed"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/src/SetupSettings.php:54, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/settings-template.php:23
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/src/SetupSettings.php:55
+msgid "Kirki"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:12
+msgid "Clear Font Cache"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:15
+msgid "In order to achieve GDPR-compliance, Kirki stores Google Fonts locally on your server."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:16
+msgid "If Google Fonts selected in the Customizer are not displayed correctly, please try clearing the font cache."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:19
+msgid "This is safe to do on production sites."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:26
+msgid "Clear Cache"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:13
+msgid "Why do I see this?"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:17
+msgid "Kirki is a key component of the WordPress theme you have installed."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:20
+msgid "It provides advanced customization options within the WordPress Customizer, allowing you to easily modify the appearance of your site."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:27, wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:37
+msgid "Documentation"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:31
+msgid "For more information, please refer to your theme's documentation."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:34
+msgid "The following article provides a detailed explanation of the Clear Font Cache option in Kirki."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/settings-template.php:26
+msgid "The #1 Customizer Toolkit for WordPress Theme Developers."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/kirki-packages/settings/templates/settings-template.php:38
+msgid "Settings"
+msgstr ""
+
+#. translators: the plugin name.
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:222
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:252
+msgid "Update now."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:241
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:233
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:228
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:484
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:484
+msgid "Error"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:21
+msgid "Show meta category"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:30
+msgid "Show meta date"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:39
+msgid "Show meta author"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:48
+msgid "Show meta comments"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:58
+msgid "Show post excerpt"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:67
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:86
+msgid "Show featured image"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:95
+msgid "Show category"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:104
+msgid "Show date"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:113
+msgid "Show author"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:122
+msgid "Show tags"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:131
+msgid "Show author box"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:141
+msgid "Related Posts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:148
+msgid "Show related posts"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:157
+msgid "Related by"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:161
+msgid "Category"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:162
+msgid "Tag"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/blog.php:163
+msgid "Author"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:20, wp-content/themes/envisionx/includes/customizer/modules/colors.php:233, wp-content/themes/envisionx/includes/theme-setup.php:66
+msgid "Primary"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:36, wp-content/themes/envisionx/includes/customizer/modules/colors.php:249, wp-content/themes/envisionx/includes/theme-setup.php:71
+msgid "Secondary"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:52, wp-content/themes/envisionx/includes/customizer/modules/colors.php:265
+msgid "Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:68, wp-content/themes/envisionx/includes/customizer/modules/colors.php:281, wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:65
+msgid "Text"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:84, wp-content/themes/envisionx/includes/customizer/modules/colors.php:297
+msgid "Background"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:101, wp-content/themes/envisionx/includes/customizer/modules/colors.php:313, wp-content/themes/envisionx/includes/theme-setup.php:76
+msgid "Slate 50"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:117, wp-content/themes/envisionx/includes/customizer/modules/colors.php:329, wp-content/themes/envisionx/includes/theme-setup.php:81
+msgid "Slate 100"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:133, wp-content/themes/envisionx/includes/customizer/modules/colors.php:345, wp-content/themes/envisionx/includes/theme-setup.php:86
+msgid "Slate 200"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:149, wp-content/themes/envisionx/includes/customizer/modules/colors.php:361, wp-content/themes/envisionx/includes/theme-setup.php:91
+msgid "Slate 300"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:165, wp-content/themes/envisionx/includes/customizer/modules/colors.php:377, wp-content/themes/envisionx/includes/theme-setup.php:96
+msgid "Slate 400"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:181, wp-content/themes/envisionx/includes/customizer/modules/colors.php:393, wp-content/themes/envisionx/includes/theme-setup.php:106
+msgid "Slate 600"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:197, wp-content/themes/envisionx/includes/customizer/modules/colors.php:409, wp-content/themes/envisionx/includes/theme-setup.php:116
+msgid "Slate 800"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:213, wp-content/themes/envisionx/includes/customizer/modules/colors.php:425, wp-content/themes/envisionx/includes/theme-setup.php:121
+msgid "Slate 900"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:446
+msgid "Dark color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:447
+msgid "This color should remain dark to avoid contrast issues."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:462
+msgid "Light color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:463
+msgid "This color should remain light to avoid contrast issues."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:482, wp-content/themes/envisionx/includes/customizer/modules/typography.php:240
+msgid "Buttons"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:491, wp-content/themes/envisionx/includes/customizer/modules/colors.php:580
+msgid "Background color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:508, wp-content/themes/envisionx/includes/customizer/modules/colors.php:597
+msgid "Text color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:525, wp-content/themes/envisionx/includes/customizer/modules/colors.php:614
+msgid "Hover background color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:542, wp-content/themes/envisionx/includes/customizer/modules/colors.php:631
+msgid "Hover border color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/colors.php:559, wp-content/themes/envisionx/includes/customizer/modules/colors.php:648
+msgid "Hover text color"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:22
+msgid "To edit custom Elementor footer template navigate to %1$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:26, wp-content/themes/envisionx/includes/customizer/modules/header.php:26
+msgid "Templates."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:38
+msgid "Show footer"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:46
+msgid "Number of columns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:72
+msgid "Bottom footer text"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:73
+msgid "Allowed HTML: a, span, i, em, strong"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/footer.php:75, wp-content/themes/envisionx/includes/template-parts.php:182, wp-content/themes/envisionx/template-parts/footer-template.php:16
+msgid "&copy; [current-year] %1$s. Powered by %2$sEnvisionX WordPress Theme%3$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/general.php:17
+msgid "Theme preloader"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/general.php:26
+msgid "Back to top arrow"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:22
+msgid "To edit custom Elementor header template navigate to %1$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:38
+msgid "Show header"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:47
+msgid "Sticky header"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:63
+msgid "Header container width"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:64, wp-content/themes/envisionx/includes/customizer/modules/layout.php:18
+msgid "Example: 1200px or 80%"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:94
+msgid "Header height"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:95, wp-content/themes/envisionx/includes/customizer/modules/header.php:126
+msgid "Will only apply on big screens"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:125
+msgid "Header sticky height"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:156
+msgid "Header mobile height"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:157
+msgid "Will only apply on mobile screens"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:187
+msgid "Upload Logo"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:198
+msgid "Logo width"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:221
+msgid "Logo mobile width"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:244
+msgid "Menu text links horizontal spacing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:245
+msgid "Applies only on big screens"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:282
+msgid "Show search icon"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:299
+msgid "Show account icon"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:317
+msgid "Show wishlist icon"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/header.php:335
+msgid "Show cart icon"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:17
+msgid "Container width"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:40, wp-content/themes/envisionx/includes/customizer/modules/layout.php:70, wp-content/themes/envisionx/includes/customizer/modules/layout.php:85, wp-content/themes/envisionx/includes/customizer/modules/layout.php:100, wp-content/themes/envisionx/includes/customizer/modules/layout.php:129
+msgid "Layout type"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:54, wp-content/themes/envisionx/includes/customizer/modules/layout.php:114, wp-content/themes/envisionx/includes/customizer/modules/layout.php:143
+msgid "Columns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:55
+msgid "Use this option for regular blog pages, such as homepage"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:59, wp-content/themes/envisionx/includes/customizer/modules/layout.php:118, wp-content/themes/envisionx/includes/customizer/modules/layout.php:147
+msgid "1 Column"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:60, wp-content/themes/envisionx/includes/customizer/modules/layout.php:119, wp-content/themes/envisionx/includes/customizer/modules/layout.php:148
+msgid "2 Columns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:61, wp-content/themes/envisionx/includes/customizer/modules/layout.php:120, wp-content/themes/envisionx/includes/customizer/modules/layout.php:149
+msgid "3 Columns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:62, wp-content/themes/envisionx/includes/customizer/modules/layout.php:121, wp-content/themes/envisionx/includes/customizer/modules/layout.php:150
+msgid "4 Columns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:86
+msgid "Use this option for regular pages"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:161
+msgid "Shop layout type"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:162
+msgid "Make sure that your Shop sidebar has widgets."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:176
+msgid "Shop pages layout type"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/layout.php:177
+msgid "Applies on Cart, Checkout and My Account pages. This setting will not have any effect if you are using custom metaboxes in Pro version."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/page-title.php:17
+msgid "Show on a regular pages"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/page-title.php:26
+msgid "Show on a blog listing"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:56
+msgid "Base font"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:89
+msgid "Headings font"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:120
+msgid "H1 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:140
+msgid "H2 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:159
+msgid "H3 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:178
+msgid "H4 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:197
+msgid "H5 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:216
+msgid "H6 Headings"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:261
+msgid "Form labels"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:288
+msgid "Menu links"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/typography.php:309
+msgid "Dropdown menu links"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:31
+msgid "Show page title"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:40
+msgid "Page title description"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:53
+msgid "Product Elements"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:60
+msgid "Sale badge"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:64
+msgid "Disabled"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:66
+msgid "Percentage"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:74
+msgid "\"New\" badge"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:75
+msgid "Show \"New\" badge on recently added products"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:84
+msgid "Days to show \"New\" badge"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:105
+msgid "Show title"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:114
+msgid "Show rating"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:123
+msgid "Show price"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:132
+msgid "Show Add to wishlist button"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:141
+msgid "Show Quickview button"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:150
+msgid "Show add to cart button"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:163
+msgid "Add to Cart"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/customizer/modules/woocommerce.php:170
+msgid "Auto open mini-cart"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-parts.php:45
+msgid "Open Search"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-parts.php:78
+msgid "Wishlist"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-parts.php:119
+msgid "Toggle navigation"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:79
+msgid "Comments are closed"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:73
+msgid " Comments"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:71
+msgid "0 Comments"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:149
+msgid "Recommended Articles"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:270
+msgid "facebook"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:275
+msgid "twitter"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:280
+msgid "linkedin"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:285
+msgid "github"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:290
+msgid "youtube"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/template-tags.php:295
+msgid "vimeo"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:340, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:99
+msgid "Install Required Plugins"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:341, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:100
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:343, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:101
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:345, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:102
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:346, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:103
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:398, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:104
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:400, wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3313, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:105
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:401, wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3105, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:106
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:403, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:107
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:405, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:108
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:407, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:109
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:408, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:110
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:409, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:111
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:410, wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:112
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:1052, wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:1243, wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3101
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Required"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Recommended"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2442
+msgid "WordPress Repository"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2445
+msgid "External Source"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2448
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2465
+msgid "Not Installed"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2471
+msgid "Active"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2483
+msgid "Update recommended"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2480
+msgid "Requires Update"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2477
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2492
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2538
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2542
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2546
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2550
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2632
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Installed version:"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2648
+msgid "Minimum required version:"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2660
+msgid "Available version:"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2683
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Plugin"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2698
+msgid "Source"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2699
+msgid "Type"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2703
+msgid "Version"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2704
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2758
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2764
+msgid "Activate %2$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2753
+msgid "Install %2$s"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2836
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2869
+msgid "Install"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2875
+msgid "Update"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2878
+msgid "Activate"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2911
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2954
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3061
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3087
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3312
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3660
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3662
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3674
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3676
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3677
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3679
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3666
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3668
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3669
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3671
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3684
+msgid "Show Details"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3684
+msgid "Hide Details"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/class-tgm-plugin-activation.php:3657
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:31
+msgid "Elementor"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:37
+msgid "Contact Form 7"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:43
+msgid "WooCommerce"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:49
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:55
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:64
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:70
+msgid "Envision Blocks"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/tgmpa/tgm-plugin-activation.php:79
+msgid "WC Ajax Product Filter"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:101
+msgid "Slate 500"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:111
+msgid "Slate 700"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:136
+msgid "Primary Menu"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:168
+msgid "Blog Sidebar"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:177
+msgid "Page Sidebar"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:187
+msgid "Shop Sidebar"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:197
+msgid "Footer Column 1"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:206
+msgid "Footer Column 2"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:215
+msgid "Footer Column 3"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:224
+msgid "Footer Column 4"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/theme-setup.php:233
+msgid "Footer Column 5"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:139
+msgid "View my shopping cart"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:444
+msgid "Share"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:499
+msgid "Delivery & Returns"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:675
+msgid "New"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:725
+msgid "Sale"
+msgstr ""
+
+#: wp-content/themes/envisionx/includes/woocommerce/woocommerce-theme-functions.php:652
+msgid "Out of Stock"
+msgstr ""
+
+#: wp-content/themes/envisionx/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/content-none.php:14
+msgid "There is no content to display"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/content-none.php:16
+msgid "Don't fret! Let's get you back on track. Perhaps searching can help"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/header-template.php:39
+msgid "Primary menu"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:62
+msgid "Chats"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:59
+msgid "Audios"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:56
+msgid "Statuses"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:53
+msgid "Links"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:50
+msgid "Quotes"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:47
+msgid "Videos"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:44
+msgid "Images"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:41
+msgid "Galleries"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:38
+msgid "Asides"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:35
+msgid "Year: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:32
+msgid "Month: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:32
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:29
+msgid "Day: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:26
+msgid "All Posts by: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/template-parts/page-title/page-title.php:71
+msgid "Search Results for: %s"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:56
+msgid "Facebook"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:64
+msgid "Twitter"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:72
+msgid "Pinterest"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:112
+msgid "WhatsApp"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:122
+msgid "(Now"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:122
+msgid "copy"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/share.php:122
+msgid "this wishlist link and share it anywhere)"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/single-product/product-attributes.php:33
+msgid "Length"
+msgstr ""
+
+#: wp-content/themes/envisionx/woocommerce/single-product/product-attributes.php:54
+msgid "Weight"
+msgstr ""

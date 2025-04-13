@@ -1,0 +1,392 @@
+@-webkit-keyframes envision-blocks-hotspot-soft-beat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes envision-blocks-hotspot-soft-beat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes envision-blocks-hotspot-expand {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes envision-blocks-hotspot-expand {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.elementor-widget-hotspot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: var(--background-align);
+  -ms-flex-pack: var(--background-align);
+  justify-content: var(--background-align);
+}
+
+.elementor-widget-hotspot .elementor-widget-container {
+  position: relative;
+  display: inline-block;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  height: var(--container-height);
+}
+
+.elementor-widget-hotspot .elementor-widget-container > img {
+  display: block;
+  width: var(--image-width, auto);
+  height: var(--container-height);
+  opacity: var(--opacity, 1);
+}
+
+.envision-blocks-hotspot {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.envision-blocks-hotspot--position-left.envision-blocks-hotspot--position-top {
+  -webkit-transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), calc(-1 * var(--hotspot-translate-y)));
+  -ms-transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), calc(-1 * var(--hotspot-translate-y)));
+  transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), calc(-1 * var(--hotspot-translate-y)));
+}
+
+.envision-blocks-hotspot--position-left.envision-blocks-hotspot--position-bottom {
+  -webkit-transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), var(--hotspot-translate-y));
+  -ms-transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), var(--hotspot-translate-y));
+  transform: translate(calc(-1*(-1 * var(--hotspot-translate-x))), var(--hotspot-translate-y));
+}
+
+.envision-blocks-hotspot--position-right.envision-blocks-hotspot--position-top {
+  -webkit-transform: translate(var(--hotspot-translate-x), calc(-1*(-1 * var(--hotspot-translate-y))));
+  -ms-transform: translate(var(--hotspot-translate-x), calc(-1*(-1 * var(--hotspot-translate-y))));
+  transform: translate(var(--hotspot-translate-x), calc(-1*(-1 * var(--hotspot-translate-y))));
+}
+
+.envision-blocks-hotspot--position-right.envision-blocks-hotspot--position-bottom {
+  -webkit-transform: translate(var(--hotspot-translate-x), var(--hotspot-translate-y));
+  -ms-transform: translate(var(--hotspot-translate-x), var(--hotspot-translate-y));
+  transform: translate(var(--hotspot-translate-x), var(--hotspot-translate-y));
+}
+
+.envision-blocks-hotspot--active {
+  z-index: 2;
+}
+
+.envision-blocks-hotspot__inner-circle,
+.envision-blocks-hotspot__outer-circle {
+  content: "";
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 50%;
+}
+
+.envision-blocks-hotspot__inner-circle {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  background-color: var(--hotspot-color);
+  padding: calc(var(--hotspot-size, 18px) / 2);
+}
+
+.envision-blocks-hotspot__outer-circle {
+  background-color: var(--hotspot-outer-color);
+  padding: var(--hotspot-padding, 4px);
+}
+
+.envision-blocks-hotspot--icon .envision-blocks-hotspot__button,
+.envision-blocks-hotspot__outer-circle {
+  width: var(--hotspot-size, 18px);
+  height: var(--hotspot-size, 18px);
+}
+
+.envision-blocks-hotspot--icon .envision-blocks-hotspot__button {
+  line-height: 0;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  font-size: var(--hotspot-size, 18px);
+}
+
+.envision-blocks-hotspot__icon,
+.envision-blocks-hotspot__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.envision-blocks-hotspot__icon svg,
+.envision-blocks-hotspot__label svg {
+  width: var(--hotspot-size, 18px);
+  height: auto;
+}
+
+.envision-blocks-hotspot__button {
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--hotspot-color);
+  font-size: var(--hotspot-size, 18px);
+  min-width: var(--hotspot-button-width);
+  min-height: var(--hotspot-button-height);
+}
+
+.envision-blocks-hotspot__button:before {
+  z-index: -2;
+  content: "";
+  width: 100%;
+  height: 100%;
+  right: -5px;
+  top: -5px;
+  position: absolute;
+  padding: 5px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.envision-blocks-hotspot__button svg {
+  fill: var(--hotspot-color);
+}
+
+.envision-blocks-hotspot:not(.envision-blocks-hotspot--circle) .envision-blocks-hotspot__button {
+  min-width: var(--hotspot-min-width);
+  min-height: var(--hotspot-min-height);
+  background-color: var(--hotspot-box-color);
+  padding: var(--hotspot-padding, 4px);
+  border-radius: var(--hotspot-border-radius, 3px);
+}
+
+.envision-blocks-hotspot:not(.envision-blocks-hotspot--circle) .envision-blocks-hotspot__button:before {
+  border-radius: var(--hotspot-border-radius, 3px);
+}
+
+.envision-blocks-hotspot:not(.envision-blocks-hotspot--circle) .envision-blocks-hotspot--expand:before {
+  background-color: var(--hotspot-box-color);
+}
+
+.envision-blocks-hotspot--overlay {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.envision-blocks-hotspot--active .envision-blocks-hotspot--overlay,
+.envision-blocks-hotspot--overlay:hover {
+  opacity: 1;
+}
+
+.envision-blocks-hotspot--soft-beat {
+  -webkit-animation: envision-blocks-hotspot-soft-beat 0.7s infinite alternate;
+  animation: envision-blocks-hotspot-soft-beat 0.7s infinite alternate;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+.envision-blocks-hotspot--expand .envision-blocks-hotspot__outer-circle,
+.envision-blocks-hotspot:not(.envision-blocks-hotspot--circle) .envision-blocks-hotspot--expand:before {
+  -webkit-animation: envision-blocks-hotspot-expand 2s infinite;
+  animation: envision-blocks-hotspot-expand 2s infinite;
+}
+
+.envision-blocks-hotspot:not(.envision-blocks-hotspot--circle) .envision-blocks-hotspot--expand:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.envision-blocks-hotspot--sequenced {
+  -webkit-animation: fadeIn 0.3s;
+  animation: fadeIn 0.3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.envision-blocks-hotspot__direction-mask {
+  overflow: hidden;
+  position: absolute;
+  pointer-events: none;
+}
+
+.envision-blocks-hotspot__tooltip {
+  white-space: var(--white-space, nowrap);
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  -o-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: var(--tooltip-transition-duration, 0.5s);
+  -o-transition-duration: var(--tooltip-transition-duration, 0.5s);
+  transition-duration: var(--tooltip-transition-duration, 0.5s);
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  position: absolute;
+  pointer-events: none;
+  color: var(--tooltip-text-color, var(--ebx-text-color));
+  text-align: var(--tooltip-align);
+  min-width: var(--tooltip-min-width);
+  padding: var(--tooltip-padding, 8px);
+  border-radius: var(--tooltip-border-radius);
+  background-color: var(--tooltip-color);
+}
+
+.envision-blocks-hotspot__tooltip :where(h1, h2, h3, h4, h5, h6) {
+  color: var(--ebx-slate-700-color);
+  margin-bottom: 4px;
+}
+
+.envision-blocks-hotspot__tooltip-price {
+  display: block;
+  color: var(--tooltip-price-color);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.envision-blocks-hotspot__tooltip p {
+  color: var(--ebx-slate-400-color);
+}
+.envision-blocks-hotspot__tooltip p:last-of-type {
+  margin-bottom: 0;
+}
+
+.envision-blocks-hotspot__direction-mask .envision-blocks-hotspot__tooltip {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  position: static;
+}
+
+.envision-blocks-hotspot--active .envision-blocks-hotspot__tooltip {
+  pointer-events: visible;
+}
+
+.envision-blocks-hotspot--fade-in-out {
+  opacity: 0;
+}
+
+.envision-blocks-hotspot--active .envision-blocks-hotspot--fade-in-out {
+  opacity: 1;
+}
+
+.envision-blocks-hotspot--fade-grow {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.envision-blocks-hotspot--active .envision-blocks-hotspot--fade-grow {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.envision-blocks-hotspot--override-tooltip-animation-from-top,
+.envision-blocks-hotspot--tooltip-animation-from-top {
+  -webkit-transform: translateY(calc(-100% - 1px));
+  -ms-transform: translateY(calc(-100% - 1px));
+  transform: translateY(calc(-100% - 1px));
+}
+
+.envision-blocks-hotspot--override-tooltip-animation-from-left,
+.envision-blocks-hotspot--tooltip-animation-from-left {
+  -webkit-transform: translate(calc(-1*(-100% - 1px)));
+  -ms-transform: translate(calc(-1*(-100% - 1px)));
+  transform: translate(calc(-1*(-100% - 1px)));
+}
+
+.envision-blocks-hotspot--override-tooltip-animation-from-right,
+.envision-blocks-hotspot--tooltip-animation-from-right {
+  -webkit-transform: translate(calc(-1*(100% + 1px)));
+  -ms-transform: translate(calc(-1*(100% + 1px)));
+  transform: translate(calc(-1*(100% + 1px)));
+}
+
+.envision-blocks-hotspot--override-tooltip-animation-from-bottom,
+.envision-blocks-hotspot--tooltip-animation-from-bottom {
+  -webkit-transform: translateY(calc(100% + 1px));
+  -ms-transform: translateY(calc(100% + 1px));
+  transform: translateY(calc(100% + 1px));
+}
+
+.envision-blocks-hotspot--fade-direction {
+  opacity: 0;
+}
+
+.envision-blocks-hotspot--active .envision-blocks-hotspot--fade-direction,
+.envision-blocks-hotspot--active .envision-blocks-hotspot--slide-direction {
+  -webkit-transform: translate(0) scale(1);
+  -ms-transform: translate(0) scale(1);
+  transform: translate(0) scale(1);
+  opacity: 1;
+}
+
+.envision-blocks-hotspot--show-tooltip {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 1;
+  pointer-events: visible;
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+
+.envision-blocks-hotspot__tooltip :where(h1, h2, h3, h4, h5, h6) {
+  font-size: 1rem;
+}

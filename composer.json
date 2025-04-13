@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "wp-coding-standards/wpcs": "3.0",
+        "automattic/vipwpcs": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/phpcs --standard=WordPress .",
+        "lint:fix": "vendor/bin/phpcbf --extensions=php --standard=WordPress ."
+    }
+}

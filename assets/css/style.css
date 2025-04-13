@@ -1,0 +1,1745 @@
+@charset "UTF-8";
+:root {
+  --ebx-slate-50-color: #f4f4f6;
+  --ebx-slate-100-color: #e7e8ec;
+  --ebx-slate-200-color: #c4c5cf;
+  --ebx-slate-300-color: #a1a2b3;
+  --ebx-slate-400-color: #7d7f96;
+  --ebx-slate-500-color: #5a5d79;
+  --ebx-slate-600-color: #363a5d;
+  --ebx-slate-700-color: #131740;
+  --ebx-slate-800-color: #101436;
+  --ebx-slate-900-color: #0d102d;
+  --ebx-primary-color: #8358ff;
+  --ebx-secondary-color: #ffb31a;
+  --ebx-dark-color: var(--ebx-slate-700-color);
+  --ebx-light-color: var(--ebx-slate-50-color);
+  --ebx-background-color: #ffffff;
+  --ebx-foreground-color: var(--ebx-slate-700-color);
+  --ebx-text-color: var(--ebx-slate-500-color);
+  --ebx-border-color: var(--ebx-slate-100-color);
+  --ebx-links-color: var(--ebx-primary-color);
+  --ebx-links-hover-color: var(--ebx-foreground-color);
+  --ebx-woo-color-highlight: #26bb44;
+  --ebx-buttons-background-color: var(--ebx-secondary-color);
+  --ebx-buttons-text-color: var(--ebx-slate-900-color);
+  --ebx-buttons-hover-background-color: transparent;
+  --ebx-buttons-hover-border-color: var(--ebx-buttons-background-color);
+  --ebx-buttons-hover-text-color: var(--ebx-slate-700-color);
+  --ebx-heading-font: "Urbanist", sans-serif;
+  --ebx-body-font: "Inter", sans-serif;
+  --ebx-heading-font-weight: 700;
+  --ebx-button-font-weight: 600;
+  --ebx-line-height--sm: 1.1;
+  --ebx-font-size--3x-large: 2.25rem;
+  --ebx-font-size--2x-large: 2rem;
+  --ebx-font-size--x-large: 1.75rem;
+  --ebx-font-size--large: 1.5rem;
+  --ebx-font-size--medium: 1.25rem;
+  --ebx-font-size--2x-small: 0.75rem;
+  --ebx-font-size--x-small: 0.9375rem;
+  --ebx-transition: cubic-bezier(0.33, 0, 0.25, 1);
+  --ebx-transition--all: all 0.3s var(--ebx-transition);
+  --ebx-rounded: 1rem;
+  --ebx-rounded--xs: 0.25rem;
+  --ebx-rounded--sm: 0.5rem;
+  --ebx-rounded--md: 0.75rem;
+  --ebx-rounded--lg: 1.5rem;
+  --ebx-shadow: 0px 4px 6px -4px rgba(13, 16, 45, 0.1),
+  	0px 10px 15px -3px rgba(13, 16, 45, 0.1);
+  --ebx-container-width--narrow: 840px;
+  --ebx-container-width: 1420px;
+  --ebx-container-width--wide: 1400px;
+}
+
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.15; /* 1. Correct the line height in all browsers. */
+  -webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+  -moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
+  tab-size: 4; /* 3 */
+}
+
+/*
+Sections
+========
+*/
+body {
+  margin: 0; /* Remove the margin in all browsers. */
+}
+
+/*
+Grouping content
+================
+*/
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+button,
+select {
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+fieldset {
+  border: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+body {
+  font-family: var(--ebx-body-font);
+  color: var(--ebx-text-color);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  background-color: var(--ebx-background-color);
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0.9rem;
+}
+
+a {
+  color: var(--ebx-links-color);
+}
+a:hover {
+  color: var(--ebx-links-hover-color);
+}
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+  color: inherit;
+}
+h1 > a:hover, h1 > a:focus,
+h2 > a:hover,
+h2 > a:focus,
+h3 > a:hover,
+h3 > a:focus,
+h4 > a:hover,
+h4 > a:focus,
+h5 > a:hover,
+h5 > a:focus,
+h6 > a:hover,
+h6 > a:focus {
+  color: var(--ebx-primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ebx-heading-font);
+  font-weight: var(--ebx-heading-font-weight);
+  color: var(--ebx-foreground-color);
+  line-height: var(--ebx-line-height--sm);
+}
+
+.envision-blocks-page-wrap {
+  overflow-x: clip;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.elementor-editor-active .site-content {
+  overflow: visible;
+}
+.elementor-editor-active .swiper-container::before {
+  opacity: 1;
+}
+
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.visually-hidden-focusable:not(:focus):not(:focus-within):not(caption),
+.visually-hidden:not(caption) {
+  position: absolute !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.envision-blocks-bg-overlay::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media only screen and (min-width: 1025px) {
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-lg-none {
+    display: none !important;
+  }
+}
+.envision-blocks-hover-scale {
+  overflow: hidden;
+}
+.envision-blocks-hover-scale img {
+  transition: all 0.4s var(--ebx-transition);
+  will-change: transform;
+}
+.envision-blocks-hover-scale:hover img {
+  transform: scale(1.05);
+}
+
+/*-------------------------------------------------------*/
+/* Grid
+/*-------------------------------------------------------*/
+.envision-blocks-container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .envision-blocks-container {
+    max-width: var(--ebx-container-width);
+  }
+}
+.envision-blocks-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.envision-blocks-row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.envision-blocks-col-lg,
+.envision-blocks-col-lg-auto,
+.envision-blocks-col-lg-12,
+.envision-blocks-col-lg-11,
+.envision-blocks-col-lg-10,
+.envision-blocks-col-lg-9,
+.envision-blocks-col-lg-8,
+.envision-blocks-col-lg-7,
+.envision-blocks-col-lg-6,
+.envision-blocks-col-lg-5,
+.envision-blocks-col-lg-4,
+.envision-blocks-col-lg-3,
+.envision-blocks-col-lg-2,
+.envision-blocks-col-lg-1,
+.envision-blocks-col-md,
+.envision-blocks-col-md-auto,
+.envision-blocks-col-md-12,
+.envision-blocks-col-md-11,
+.envision-blocks-col-md-10,
+.envision-blocks-col-md-9,
+.envision-blocks-col-md-8,
+.envision-blocks-col-md-7,
+.envision-blocks-col-md-6,
+.envision-blocks-col-md-5,
+.envision-blocks-col-md-4,
+.envision-blocks-col-md-3,
+.envision-blocks-col-md-2,
+.envision-blocks-col-md-1,
+.envision-blocks-col-sm,
+.envision-blocks-col-sm-auto,
+.envision-blocks-col-sm-12,
+.envision-blocks-col-sm-11,
+.envision-blocks-col-sm-10,
+.envision-blocks-col-sm-9,
+.envision-blocks-col-sm-8,
+.envision-blocks-col-sm-7,
+.envision-blocks-col-sm-6,
+.envision-blocks-col-sm-5,
+.envision-blocks-col-sm-4,
+.envision-blocks-col-sm-3,
+.envision-blocks-col-sm-2,
+.envision-blocks-col-sm-1 {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 576px) {
+  .envision-blocks-col-sm {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .envision-blocks-col-sm-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .envision-blocks-col-sm-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .envision-blocks-col-sm-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .envision-blocks-col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .envision-blocks-col-sm-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .envision-blocks-col-sm-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .envision-blocks-col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .envision-blocks-col-sm-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .envision-blocks-col-sm-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .envision-blocks-col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .envision-blocks-col-sm-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .envision-blocks-col-sm-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .envision-blocks-col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .envision-blocks-col-md {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .envision-blocks-col-md-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .envision-blocks-col-md-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .envision-blocks-col-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .envision-blocks-col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .envision-blocks-col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .envision-blocks-col-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .envision-blocks-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .envision-blocks-col-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .envision-blocks-col-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .envision-blocks-col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .envision-blocks-col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .envision-blocks-col-md-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .envision-blocks-col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .envision-blocks-col-lg {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .envision-blocks-col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .envision-blocks-col-lg-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .envision-blocks-col-lg-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .envision-blocks-col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .envision-blocks-col-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .envision-blocks-col-lg-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  .envision-blocks-col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .envision-blocks-col-lg-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  .envision-blocks-col-lg-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  .envision-blocks-col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .envision-blocks-col-lg-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  .envision-blocks-col-lg-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  .envision-blocks-col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.envision-blocks-grid-offset-left > .elementor-container,
+.envision-blocks-grid-offset-left > .elementor-element {
+  padding-left: calc((100% - var(--ebx-container-width) - 20px) / 2);
+}
+
+.envision-blocks-grid-offset-right > .elementor-container,
+.envision-blocks-grid-offset-right > .elementor-element {
+  padding-right: calc((100% - var(--ebx-container-width) - 20px) / 2);
+}
+
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-1 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-1 .envision-blocks-grid-container {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid ul.products.columns-2,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid .woocommerce.columns-2 ul.products,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-2 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-2 .envision-blocks-grid-container {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid ul.products.columns-3,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid .woocommerce.columns-3 ul.products,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-3 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-3 .envision-blocks-grid-container {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid ul.products.columns-4,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid .woocommerce.columns-4 ul.products,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-4 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-4 .envision-blocks-grid-container {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid ul.products.columns-5,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid .woocommerce.columns-5 ul.products,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-5 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-5 .envision-blocks-grid-container {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid ul.products.columns-6,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid .woocommerce.columns-6 ul.products,
+body[data-elementor-device-mode=desktop] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-6 ul.products,
+body[data-elementor-device-mode=desktop] .envision-blocks-grid-columns-6 .envision-blocks-grid-container {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid ul.products {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid ul.products {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-1 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-1 .envision-blocks-grid-container {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-2 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-2 .envision-blocks-grid-container {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-3 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-3 .envision-blocks-grid-container {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-4 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-4 .envision-blocks-grid-container {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-5 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-5 .envision-blocks-grid-container {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=tablet] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-tablet-6 ul.products,
+body[data-elementor-device-mode=tablet] .envision-blocks-grid-columns-tablet-6 .envision-blocks-grid-container {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-1 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-1 .envision-blocks-grid-container {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-2 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-2 .envision-blocks-grid-container {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-3 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-3 .envision-blocks-grid-container {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-4 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-4 .envision-blocks-grid-container {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-5 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-5 .envision-blocks-grid-container {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+body[data-elementor-device-mode=mobile] .elementor-element.envision-blocks-grid.envision-blocks-grid-columns-mobile-6 ul.products,
+body[data-elementor-device-mode=mobile] .envision-blocks-grid-columns-mobile-6 .envision-blocks-grid-container {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+/*-------------------------------------------------------*/
+/* Headings
+/*-------------------------------------------------------*/
+.elementor-widget-heading .elementor-heading-title {
+  line-height: normal;
+}
+
+/*-------------------------------------------------------*/
+/* Buttons
+/*-------------------------------------------------------*/
+.elementor-button {
+  text-decoration: none;
+  background-color: var(--ebx-buttons-background-color);
+  border-radius: var(--ebx-rounded--sm);
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  font-weight: 600;
+  padding: 20px 32px;
+  color: var(--ebx-buttons-text-color);
+}
+.elementor-button:hover, .elementor-button:focus {
+  background-color: var(--ebx-buttons-hover-background-color);
+  outline-color: var(--ebx-buttons-hover-border-color);
+  color: var(--ebx-buttons-hover-text-color);
+}
+.elementor-button:visited {
+  color: initial;
+}
+
+button,
+.button,
+[type=button],
+[type=reset],
+[type=submit],
+a.envision-blocks-btn {
+  display: inline-block;
+  position: relative;
+  backface-visibility: hidden;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--ebx-buttons-background-color);
+  color: var(--ebx-buttons-text-color);
+  border: 0;
+  border-color: transparent;
+  padding: 16px 32px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  border-radius: var(--ebx-rounded--sm);
+  font-weight: var(--ebx-button-font-weight);
+  font-size: 0.9375rem;
+  line-height: 1;
+  transition: var(--ebx-transition--all);
+}
+button.envision-blocks-btn--lg,
+.button.envision-blocks-btn--lg,
+[type=button].envision-blocks-btn--lg,
+[type=reset].envision-blocks-btn--lg,
+[type=submit].envision-blocks-btn--lg,
+a.envision-blocks-btn.envision-blocks-btn--lg {
+  font-size: 0.9375rem;
+  padding: 16px 32px;
+}
+button.envision-blocks-btn--lg svg,
+.button.envision-blocks-btn--lg svg,
+[type=button].envision-blocks-btn--lg svg,
+[type=reset].envision-blocks-btn--lg svg,
+[type=submit].envision-blocks-btn--lg svg,
+a.envision-blocks-btn.envision-blocks-btn--lg svg {
+  width: 20px;
+}
+button.envision-blocks-btn--md,
+.button.envision-blocks-btn--md,
+[type=button].envision-blocks-btn--md,
+[type=reset].envision-blocks-btn--md,
+[type=submit].envision-blocks-btn--md,
+a.envision-blocks-btn.envision-blocks-btn--md {
+  font-size: 0.875rem;
+  padding: 13px 28px;
+}
+button.envision-blocks-btn--sm,
+.button.envision-blocks-btn--sm,
+[type=button].envision-blocks-btn--sm,
+[type=reset].envision-blocks-btn--sm,
+[type=submit].envision-blocks-btn--sm,
+a.envision-blocks-btn.envision-blocks-btn--sm {
+  font-size: 0.75rem;
+  padding: 9px 24px;
+}
+button:hover, button:focus,
+.button:hover,
+.button:focus,
+[type=button]:hover,
+[type=button]:focus,
+[type=reset]:hover,
+[type=reset]:focus,
+[type=submit]:hover,
+[type=submit]:focus,
+a.envision-blocks-btn:hover,
+a.envision-blocks-btn:focus {
+  background-color: var(--ebx-buttons-hover-background-color);
+  outline-color: var(--ebx-buttons-hover-border-color);
+  color: var(--ebx-buttons-hover-text-color);
+}
+
+/*-------------------------------------------------------*/
+/* Form Inputs
+/*-------------------------------------------------------*/
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+  width: 100%;
+  min-height: 46px;
+  margin-bottom: 16px;
+  color: var(--ebx-text-color);
+  border: 1px solid var(--ebx-border-color);
+  border-radius: var(--ebx-rounded--sm);
+  background-color: transparent;
+  padding: 10px 16px;
+  transition: all 0.3s;
+}
+input[type=date]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--ebx-primary-color);
+}
+
+textarea {
+  height: auto;
+  display: block;
+  padding: 10px 16px;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=search]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the ‘X’ from Chrome */
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* Change Color of Placeholders */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--ebx-text-color);
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: var(--ebx-text-color);
+  opacity: 1;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: var(--ebx-text-color);
+  opacity: 1;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--ebx-text-color);
+}
+
+/*-------------------------------------------------------*/
+/* Sticky Col
+/*-------------------------------------------------------*/
+.envision-blocks-sticky-col-wrap,
+.envision-blocks-sticky-col-wrap .elementor-column,
+.envision-blocks-sticky-col-wrap .elementor-column-wrap {
+  display: block;
+}
+
+.envision-blocks-sticky-col .elementor-widget-wrap {
+  position: sticky;
+  top: 100px;
+}
+
+/*-------------------------------------------------------*/
+/* Tabs & Accordions
+/*-------------------------------------------------------*/
+.elementor-widget-tabs .elementor-tab-content,
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-widget-tabs .elementor-tab-title:after,
+.elementor-widget-tabs .elementor-tab-title:before,
+.elementor-widget-tabs .elementor-tabs-content-wrapper {
+  border: 1px none var(--ebx-border-color);
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active {
+  border-color: var(--ebx-border-color);
+  border-top-width: 2px !important;
+  border-top: 2px solid var(--ebx-primary-color);
+}
+
+.elementor-widget-tabs .elementor-tab-title,
+.elementor-accordion .elementor-accordion-item .elementor-tab-title,
+.e-n-accordion .e-n-accordion-item .e-n-accordion-item-title {
+  padding: 20px;
+  font-size: 1rem;
+  color: var(--ebx-foreground-color);
+}
+
+@media (max-width: 767px) {
+  .elementor-tabs .elementor-tab-title {
+    border: 1px solid var(--ebx-border-color);
+  }
+  .elementor-tabs .elementor-tab-content,
+  .elementor-tabs .elementor-tab-title {
+    border-style: solid;
+    border-bottom-style: none;
+  }
+  .elementor-tabs .elementor-tab-content:last-child {
+    border-style: solid;
+    border-top-style: none;
+  }
+  .elementor-tabs .elementor-tab-title:nth-last-child(2) {
+    border-style: solid;
+  }
+}
+.elementor-tab-content > p:last-child {
+  margin-bottom: 0;
+}
+
+/*-------------------------------------------------------*/
+/* Accordions
+/*-------------------------------------------------------*/
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-item {
+  border: 1px solid var(--ebx-border-color);
+  margin-bottom: 20px;
+  border-radius: var(--ebx-rounded--sm);
+  overflow: hidden;
+}
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-item .elementor-tab-title {
+  font-size: 1.25rem;
+}
+
+.e-n-accordion .e-n-accordion-item {
+  --n-accordion-item-title-space-between: 20px;
+  --n-accordion-border-color: var(--ebx-border-color);
+  --n-accordion-border-radius: var(--ebx-rounded--sm);
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-item .elementor-tab-content,
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-item + .elementor-accordion-item {
+  border-top: 1px solid var(--ebx-border-color);
+}
+
+.elementor-accordion-icon {
+  font-size: 1rem;
+}
+.envision-blocks-scheme-dark .elementor-accordion-icon {
+  fill: #fff;
+}
+
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+  width: 1rem !important;
+}
+
+/*-------------------------------------------------------*/
+/* Alerts
+/*-------------------------------------------------------*/
+.elementor-alert {
+  border-radius: 3px;
+}
+
+/*-------------------------------------------------------*/
+/* Icon Box
+/*-------------------------------------------------------*/
+.elementor-icon-wrapper {
+  display: flex;
+}
+
+.elementor-widget-icon-box.elementor-vertical-align-middle .elementor-icon-box-wrapper {
+  align-items: center;
+}
+
+.elementor-icon-box-icon svg {
+  fill: inherit;
+}
+
+/*-------------------------------------------------------*/
+/* Progress Bars
+/*-------------------------------------------------------*/
+.elementor-widget-progress .elementor-title {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.envision-blocks-progress-bar .elementor-progress-percentage {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  padding-right: 0;
+}
+
+/*-------------------------------------------------------*/
+/* Video Lightbox
+/*-------------------------------------------------------*/
+.elementor-custom-embed-play:hover svg {
+  transform: scale(0.9);
+  opacity: 1;
+}
+
+/*-------------------------------------------------------*/
+/* Counters
+/*-------------------------------------------------------*/
+.envision-blocks-counter--align-left .elementor-counter-number-prefix {
+  flex-grow: initial !important;
+}
+.envision-blocks-counter--align-left .elementor-counter .elementor-counter-title {
+  text-align: left;
+}
+
+/*-------------------------------------------------------*/
+/* Entries
+/*-------------------------------------------------------*/
+.envision-blocks-entry {
+  margin-bottom: 40px;
+  border-radius: var(--ebx-rounded--md);
+  overflow: hidden;
+}
+.envision-blocks-entry__title {
+  font-size: 1.25rem;
+}
+.envision-blocks-entry__img-holder {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 24px;
+}
+.envision-blocks-entry__img-holder:hover img {
+  transform: scale(1.05);
+}
+.envision-blocks-entry__img {
+  width: 100%;
+  transition: all 0.4s var(--ebx-transition) !important;
+}
+
+/*-------------------------------------------------------*/
+/* Close Button X
+/*-------------------------------------------------------*/
+.envision-blocks-close-button {
+  padding: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 9px solid transparent;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0;
+}
+.envision-blocks-close-button--align-top-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.envision-blocks-close-button::after, .envision-blocks-close-button::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background-color: #fff;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transition: transform ease 0.25s;
+}
+.envision-blocks-close-button--dark::before, .envision-blocks-close-button--dark::after {
+  background-color: var(--ebx-foreground-color);
+}
+.envision-blocks-close-button::before {
+  transform: rotate(45deg);
+}
+.envision-blocks-close-button::after {
+  transform: rotate(-45deg);
+}
+.envision-blocks-close-button:hover::after, .envision-blocks-close-button:hover::before {
+  transform: rotate(0);
+}
+
+/*-------------------------------------------------------*/
+/* Elementor Gallery Overflow Fix
+/*-------------------------------------------------------*/
+.elementor-image-gallery {
+  overflow: hidden;
+}
+
+/*-------------------------------------------------------*/
+/* Animations
+/*-------------------------------------------------------*/
+.fadeInUpSmooth {
+  animation-name: fadeInUpSmooth;
+}
+
+.fadeInDownSmooth {
+  animation-name: fadeInDownSmooth;
+}
+
+.fadeInLeftSmooth {
+  animation-name: fadeInLeftSmooth;
+}
+
+.fadeInRightSmooth {
+  animation-name: fadeInRightSmooth;
+}
+
+@keyframes fadeInUpSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInUpSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInDownSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -50px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInDownSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -50px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInLeftSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInRightSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInRightSmooth {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.envision-blocks-animated-arrow img {
+  animation: animatedArrow 1s alternate infinite;
+}
+
+@keyframes animatedArrow {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+.envision-blocks-header--is-sticky > .elementor-element-overlay .elementor-editor-container-settings::before {
+  content: "Sticky";
+  line-height: 24px;
+  margin: 0 8px;
+}
+
+/*-------------------------------------------------------*/
+/* Forms
+/*-------------------------------------------------------*/
+.elementor-widget .envision-blocks-field-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.elementor-widget .envision-blocks-field-group input,
+.elementor-widget .envision-blocks-field-group select,
+.elementor-widget .envision-blocks-field-group textarea {
+  margin-bottom: 0;
+}
+
+.envision-blocks-field-type-submit input {
+  width: auto;
+}
+
+.envision-blocks-field-group p {
+  margin: 0;
+}
+
+.envision-blocks-field {
+  flex-basis: 100%;
+}
+
+/*-------------------------------------------------------*/
+/* Pagination
+/*-------------------------------------------------------*/
+.envision-blocks-pagination {
+  text-align: center;
+}
+.envision-blocks-pagination svg {
+  fill: currentColor;
+}
+
+.envision-blocks-pagination span,
+.envision-blocks-pagination a,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.post-page-numbers {
+  font-size: 0.9375rem;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ebx-rounded--xs);
+  width: 36px;
+  height: 36px;
+  margin: 0 2px 8px;
+  text-align: center;
+  color: var(--ebx-text-color);
+  background-color: var(--ebx-slate-100-color);
+  vertical-align: middle;
+  transition: all 0.3s var(--ebx-transition);
+}
+.envision-blocks-pagination span:not(span):hover, .envision-blocks-pagination span:not(span):focus,
+.envision-blocks-pagination a:not(span):hover,
+.envision-blocks-pagination a:not(span):focus,
+.woocommerce nav.woocommerce-pagination ul li a:not(span):hover,
+.woocommerce nav.woocommerce-pagination ul li a:not(span):focus,
+.woocommerce nav.woocommerce-pagination ul li span:not(span):hover,
+.woocommerce nav.woocommerce-pagination ul li span:not(span):focus,
+.post-page-numbers:not(span):hover,
+.post-page-numbers:not(span):focus {
+  background-color: var(--ebx-primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+.envision-blocks-pagination span:last-child,
+.envision-blocks-pagination a:last-child,
+.woocommerce nav.woocommerce-pagination ul li a:last-child,
+.woocommerce nav.woocommerce-pagination ul li span:last-child,
+.post-page-numbers:last-child {
+  margin-right: 0;
+}
+.envision-blocks-pagination span.current,
+.envision-blocks-pagination a.current,
+.woocommerce nav.woocommerce-pagination ul li a.current,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.post-page-numbers.current {
+  background-color: var(--ebx-primary-color);
+  color: #fff;
+}
+
+/*-------------------------------------------------------*/
+/* Sliders
+/*-------------------------------------------------------*/
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.swiper-container .swiper-wrapper {
+  opacity: 0;
+}
+.swiper-container.swiper-initialized .swiper-wrapper {
+  opacity: 1;
+}
+.swiper-container::before {
+  content: "";
+  display: block;
+  background-color: var(--ebx-slate-100-color);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  pointer-events: none;
+  transition: opacity 0.3s var(--ebx-transition);
+}
+.swiper-container.swiper-initialized::before {
+  opacity: 0;
+}
+
+.envision-blocks-slider.swiper-horizontal > .swiper-pagination-bullets,
+.envision-blocks-slider.swiper-pagination-custom,
+.envision-blocks-slider.swiper-pagination-fraction {
+  position: relative;
+  margin-top: 32px;
+}
+
+.envision-blocks-slider .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  border: 2px solid transparent;
+  background-color: transparent;
+  transition: 0.3s border-color;
+}
+.envision-blocks-slider .swiper-pagination-bullet:after {
+  display: block;
+  content: "";
+  border-radius: 50%;
+  transform: scale(0.6);
+  width: 100%;
+  height: 100%;
+  background-color: var(--ebx-text-color);
+}
+.envision-blocks-slider .swiper-pagination-bullet:focus, .envision-blocks-slider .swiper-pagination-bullet:hover {
+  border-color: var(--ebx-text-color);
+  outline: 0;
+}
+.envision-blocks-slider .swiper-pagination-bullet-active {
+  border-color: var(--ebx-text-color);
+}
+.envision-blocks-slider .swiper-pagination-bullet-active::after {
+  background-color: transparent !important;
+}
+
+.envision-blocks-slider--dots-inside .swiper-pagination-bullet::after {
+  background-color: #ffffff;
+}
+.envision-blocks-slider--dots-inside .swiper-pagination-bullet-active {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.envision-blocks-slider--dots-inside .swiper-pagination-bullet:focus, .envision-blocks-slider--dots-inside .swiper-pagination-bullet:hover {
+  border-color: #ffffff;
+}
+.envision-blocks-slider--dots-inside .swiper-pagination {
+  bottom: 30px;
+  position: absolute !important;
+}
+
+.envision-blocks-swiper-buttons--align-right {
+  right: 0;
+}
+.envision-blocks-swiper-buttons .envision-blocks-swiper-button-prev {
+  margin-right: 6px;
+}
+
+.envision-blocks-swiper-button {
+  border-radius: 999px;
+  position: absolute;
+  display: inline-flex;
+  z-index: 1;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--ebx-background-color);
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--ebx-border-color);
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--ebx-foreground-color);
+  transition: transform 0.3s, color 0.3s, background-color 0.3s, opacity 0.3s, left 0.3s, right 0.3s;
+}
+.envision-blocks-swiper-button-prev {
+  left: 10px;
+}
+.envision-blocks-swiper-button-next {
+  right: 10px;
+}
+.envision-blocks-swiper-button:not(.envision-blocks-swiper-button--is-arrow):hover svg {
+  fill: var(--ebx-primary-color);
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.envision-blocks-slider .swiper-scrollbar {
+  background-color: var(--ebx-border-color);
+}
+
+.envision-blocks-slider.swiper-horizontal > .swiper-scrollbar,
+.envision-blocks-slider .swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: relative;
+  left: 0;
+  margin-top: 4rem;
+  height: 0.125rem;
+  width: 100%;
+}
+
+.elementor-widget-envision-blocks-woo-product-categories .swiper-horizontal > .swiper-scrollbar,
+.elementor-widget-envision-blocks-woo-product-categories .envision-blocks-swiper-scrollbar {
+  width: calc(100% - 160px);
+}
+
+.envision-blocks-slider .swiper-scrollbar-drag {
+  border-radius: 0.25rem;
+  background-color: var(--ebx-foreground-color);
+}
+
+.envision-blocks-sticky-column-yes {
+  position: sticky;
+  top: 120px;
+  height: 100%;
+}
+
+.envision-blocks-google-maps-infowindow-title {
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--ebx-dark-color);
+}
+
+/*-------------------------------------------------------*/
+/* Layers animations
+/*-------------------------------------------------------*/
+.envision-blocks-slider-animation {
+  animation: fadeOutDown 0.5s both;
+  will-change: transform, opacity;
+}
+.elementor-editor-active .envision-blocks-slider-animation {
+  animation-name: none;
+}
+
+.swiper-slide-active .envision-blocks-slider-animation {
+  animation: fadeInUp 0.5s both 0.3s;
+}
+.swiper-slide-active .envision-blocks-slider-animation:nth-child(2) {
+  animation: fadeInUp 0.5s both 0.4s;
+}
+.swiper-slide-active .envision-blocks-slider-animation:nth-child(3) {
+  animation: fadeInUp 0.5s both 0.5s;
+}
+
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
+@-webkit-keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+/*-------------------------------------------------------*/
+/* Pagination / Load More Button
+/*-------------------------------------------------------*/
+.envision-blocks-load-more {
+  text-align: center;
+}
+.envision-blocks-load-more .envision-blocks-loader::before {
+  width: 24px;
+  height: 24px;
+}
+.envision-blocks-load-more__button.envision-blocks-loading {
+  opacity: 0;
+}
+
+.envision-blocks-loading .envision-blocks-masonry-item {
+  opacity: 0.7;
+}
+
+.envision-blocks-loader {
+  color: var(--ebx-foreground-color);
+}
+.envision-blocks-loader svg {
+  display: none;
+}
+
+.envision-blocks-loader::before {
+  content: "";
+  position: absolute;
+  color: inherit !important;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  display: inline-block;
+  float: none;
+  width: 40px;
+  height: 40px;
+  background: transparent !important;
+  border-style: solid;
+  border-width: 2px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  transform: translate(-50%, -50%);
+  animation: spin 1s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.envision-blocks-grid-sizer {
+  position: absolute;
+}
+
+/* Filter
+-------------------------------------------------------*/
+.envision-blocks-isotope-filter {
+  margin-bottom: 40px;
+}
+.envision-blocks-isotope-filter a {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  padding: 2px 14px;
+  margin-bottom: 8px;
+  font-size: 0.875rem;
+  color: var(--ebx-text-color);
+  border-radius: 999px;
+  border-bottom: 2px solid transparent;
+  transition: var(--ebx-transition--all);
+}
+.envision-blocks-isotope-filter a:hover, .envision-blocks-isotope-filter a:focus, .envision-blocks-isotope-filter a.active {
+  background-color: var(--ebx-foreground-color);
+  color: var(--ebx-background-color);
+}

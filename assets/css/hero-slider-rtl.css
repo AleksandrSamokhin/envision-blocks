@@ -1,0 +1,95 @@
+/*-------------------------------------------------------*/
+/* Hero Slider
+/*-------------------------------------------------------*/
+.envision-blocks-hero-slider__content-holder {
+  position: relative;
+}
+.envision-blocks-hero-slider__bg-img {
+  height: 100%;
+}
+.envision-blocks-hero-slider__img {
+  width: 100%;
+  opacity: 1 !important;
+  object-fit: cover;
+}
+.envision-blocks-hero-slider__text-outer {
+  display: flex;
+}
+.envision-blocks-hero-slider__text-holder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 30px;
+}
+.envision-blocks-hero-slider__heading {
+  font-size: 2.5rem;
+  line-height: 1.1em;
+}
+@media only screen and (min-width: 768px) {
+  .envision-blocks-hero-slider__heading {
+    font-size: 2.75rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .envision-blocks-hero-slider__heading {
+    font-size: 4.25rem;
+  }
+}
+.envision-blocks-hero-slider__text {
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+  color: #fff;
+}
+.envision-blocks-hero-slider video {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+  z-index: -1;
+  right: 18px;
+  width: calc(100% - 20px);
+}
+.envision-blocks-hero-slider video.lazy.entered {
+  width: 100%;
+  right: 0;
+}
+.envision-blocks-hero-slider__text-outer--align-right {
+  justify-content: flex-end;
+  text-align: left;
+}
+.envision-blocks-hero-slider__text-outer--align-right .envision-blocks-hero-slider__text-holder {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.envision-blocks-hero-slider__text-outer--align-center {
+  justify-content: center;
+  text-align: center;
+}
+.envision-blocks-hero-slider__text-outer--align-center .envision-blocks-hero-slider__text-holder {
+  padding: 0 30px;
+}
+.envision-blocks-hero-slider .envision-blocks-swiper-button {
+  opacity: 0;
+  border: 0;
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  color: #fff;
+}
+.envision-blocks-hero-slider .envision-blocks-swiper-button-prev {
+  left: 0;
+}
+.envision-blocks-hero-slider .envision-blocks-swiper-button-next {
+  right: 0;
+}
+.envision-blocks-hero-slider .envision-blocks-swiper-button:hover {
+  background-color: transparent;
+}
+.envision-blocks-hero-slider:hover .envision-blocks-swiper-button-prev {
+  left: 20px;
+  opacity: 1;
+}
+.envision-blocks-hero-slider:hover .envision-blocks-swiper-button-next {
+  right: 20px;
+  opacity: 1;
+}
